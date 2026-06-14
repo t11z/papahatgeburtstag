@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#2f4a3e" />
+  <title>Alles Gute zum 71., Papa</title>
+  <meta name="description" content="Eine kleine Geburtstagsseite für Dietmar – mit Liebe von seiner Familie." />
+
+  <!-- Open Graph (schöne Vorschau, wenn der Link geteilt wird) -->
+  <meta property="og:title" content="Alles Gute zum 71., Papa" />
+  <meta property="og:description" content="Eine kleine Geburtstagsseite – mit Liebe von deiner Familie." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Intro-Overlay: Tippen startet Musik (löst iOS-Autoplay) ===== -->
+  <div id="intro" class="intro" role="button" tabindex="0" aria-label="Geburtstagsseite öffnen">
+    <div class="intro__card">
+      <div class="intro__kicker">Für dich, Papa</div>
+      <h1 class="intro__title">Herzlichen<br />Glückwunsch</h1>
+      <div class="intro__age">71</div>
+      <p class="intro__hint">Tippe, um deine Seite zu öffnen</p>
+      <p class="intro__note">♪ mit ein bisschen Musik</p>
+    </div>
+  </div>
+
+  <!-- ===== Musik ===== -->
+  <audio id="bg-audio" loop preload="auto">
+    <source src="assets/audio/background.mp3" type="audio/mpeg" />
+  </audio>
+  <button id="audio-toggle" class="audio-toggle" aria-label="Musik an/aus" hidden>
+    <span class="audio-toggle__on" aria-hidden="true">♪</span>
+    <span class="audio-toggle__off" aria-hidden="true">♪̶</span>
+  </button>
+
+  <!-- ===== Inhalt ===== -->
+  <main id="page" class="page" aria-hidden="true">
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero__inner">
+        <p class="hero__kicker">14. Juni · Geburtstag</p>
+        <h1 class="hero__title">Alles Gute<br />zum 71., Papa</h1>
+        <p class="hero__sub">Eine kleine Seite voller Erinnerungen – ganz für dich.</p>
+        <div class="hero__scroll" aria-hidden="true">↓</div>
+      </div>
+    </header>
+
+    <!-- Brief -->
+    <section class="letter" aria-label="Liebe Worte">
+      <div class="letter__inner">
+        <h2 class="section-title">Lieber Papa</h2>
+        <p>heute wirst du <strong>71</strong>. Und auch wenn wir nicht alle gleichzeitig in einem Raum sitzen – diese Seite ist ganz für dich gemacht. Du kannst sie öffnen, sooft du magst.</p>
+        <p>Ein Leben lang hast du angepackt: als Landmaschinen-Schlosser, am Steuer von Lkw und Bus, später bei den Stadtwerken. Du hast aus Holz Dinge gebaut, die halten. Du hast ganze Wohnmobile mit deinen eigenen Händen umgebaut. Am Lagerfeuer hast du zur Gitarre gegriffen, und am Wochenende lief die Formel 1.</p>
+        <p>Und du hast etwas getan, das für immer bleibt: Du hast unsere Erinnerungen festgehalten. Mit der Kamera in der Hand wurden Feste, Einschulungen und ganz normale Tage zu kleinen Filmen.</p>
+        <p class="letter__turn">Heute drehen wir den Spieß einmal um. Diese Seite ist <em>unser</em> Video für dich – aus lauter Augenblicken, in denen du dabei warst.</p>
+        <p class="letter__close">Danke, dass es dich gibt. Wir haben dich lieb.</p>
+      </div>
+    </section>
+
+    <!-- Galerie -->
+    <section class="gallery" aria-label="Fotos">
+      <div class="gallery__head">
+        <h2 class="section-title">Augenblicke</h2>
+        <p class="section-lead">Tippe auf ein Foto, um es groß zu sehen.</p>
+      </div>
+      <div id="gallery-grid" class="gallery__grid"><!-- per JS gefüllt --></div>
+    </section>
+
+    <!-- Lebensstationen -->
+    <section class="timeline" aria-label="Lebensstationen">
+      <div class="timeline__inner">
+        <h2 class="section-title">Dein Weg</h2>
+        <ol class="timeline__list">
+          <li><span class="timeline__role">Landmaschinen-Schlosser</span><span class="timeline__desc">Wo alles begann – schrauben, schweißen, reparieren.</span></li>
+          <li><span class="timeline__role">Lkw-Fahrer</span><span class="timeline__desc">Tausende Kilometer auf der Straße.</span></li>
+          <li><span class="timeline__role">Busfahrer</span><span class="timeline__desc">Am Steuer, als Thomas zur Welt kam.</span></li>
+          <li><span class="timeline__role">Sperrkassierer · Stadtwerke</span><span class="timeline__desc">Tag für Tag unterwegs für die Stadt.</span></li>
+          <li><span class="timeline__role">Disponent</span><span class="timeline__desc">Den Überblick behalten – bis zum Schluss.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Unterschriften -->
+    <section class="signs" aria-label="Unterschriften">
+      <div class="signs__inner">
+        <h2 class="section-title">In Liebe</h2>
+        <p class="section-lead">von uns allen</p>
+        <div id="signs-grid" class="signs__grid"><!-- per JS gefüllt --></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer__heart">♥</p>
+      <p class="footer__credit">Musik: „Heartwarming“ von Kevin MacLeod (incompetech.com) · Lizenz CC BY 4.0</p>
+    </footer>
+  </main>
+
+  <!-- ===== Lightbox ===== -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Foto-Großansicht">
+    <button class="lightbox__close" aria-label="Schließen">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" aria-label="Vorheriges Foto">‹</button>
+    <button class="lightbox__nav lightbox__nav--next" aria-label="Nächstes Foto">›</button>
+    <figure class="lightbox__figure">
+      <img id="lightbox-img" class="lightbox__img" src="" alt="" />
+      <figcaption id="lightbox-cap" class="lightbox__cap"></figcaption>
+    </figure>
+  </div>
+
+  <script src="photos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
