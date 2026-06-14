@@ -39,6 +39,26 @@ window.PHOTOS = [
     available: true,
   },
   {
+    file: "IMG_2361.jpg",
+    caption: "Noch eine von Björns Hochzeit – du, Mama und Thomas.",
+    available: true,
+  },
+  {
+    file: "BOUH1085.jpg",
+    caption: "Bei uns im Garten in Hohenlimburg – du und Maria.",
+    available: true,
+  },
+  {
+    file: "IMG_0993.jpg",
+    caption: "Bei dir und Mama zu Hause – Musizieren mit Linus.",
+    available: true,
+  },
+  {
+    file: "IMG_0999.jpg",
+    caption: "Noch eine vom gemeinsamen Musizieren mit Linus.",
+    available: true,
+  },
+  {
     file: "IMG_1293.jpg",
     caption: "Deine neugeborene Enkelin Lena, das erste Mal auf deinem Arm.",
     available: true,
@@ -49,13 +69,43 @@ window.PHOTOS = [
     available: true,
   },
   {
+    file: "IMG_1499.jpg",
+    caption: "Bei dir und Mama zu Hause, klein-Lena auf dem Schoß.",
+    available: true,
+  },
+  {
     file: "thumb_IMG_0042_1024.jpg",
     caption: "Dein Enkel Linus auf deinem Arm – ganz nah.",
     available: true,
   },
   {
+    file: "IMG_1578.jpg",
+    caption: "Bei uns in Höver an Linus' Geburtstag, mit der ganzen Familie.",
+    available: true,
+  },
+  {
+    file: "IMG_5479.jpg",
+    caption: "Noch eine von Linus' Geburtstag bei uns in Höver.",
+    available: true,
+  },
+  {
+    file: "IMG_1668.jpg",
+    caption: "Einen Monat später an Lenas Geburtstag – zusammen mit Oma Hanne.",
+    available: true,
+  },
+  {
     file: "IMG_2584.jpg",
     caption: "In deinem Element: hinten am Rand, die Kamera läuft – Linus' Einschulung.",
+    available: true,
+  },
+  {
+    file: "IMG_2207.jpg",
+    caption: "Noch ein Moment von Linus' Einschulung.",
+    available: true,
+  },
+  {
+    file: "IMG_9533.jpg",
+    caption: "Linus' Einschulung – die ganze Familie um ihn herum.",
     available: true,
   },
   {
