@@ -15,7 +15,7 @@
 window.PHOTOS = [
   {
     file: "IMG_5987.jpg",
-    caption: "Unsere kleine Hochzeitsgesellschaft auf der Kirchentreppe – die liebsten Menschen im kleinen Kreis.",
+    caption: "Unsere kleine Hochzeitsgesellschaft auf der Rathaustreppe – die liebsten Menschen im kleinen Kreis.",
     available: true,
   },
   {
@@ -85,8 +85,8 @@ window.PHOTOS = [
  * Datei nach assets/img/signatures/ legen und hier "available" auf true setzen.
  */
 window.SIGNATURES = [
-  { file: "thomas.png", name: "Thomas", available: false },
-  { file: "maria.png",  name: "Maria",  available: false },
-  { file: "linus.png",  name: "Linus",  available: false },
-  { file: "lena.png",   name: "Lena",   available: false },
+  { file: "thomas.png", name: "Thomas", available: true },
+  { file: "maria.png",  name: "Maria",  available: true },
+  { file: "linus.png",  name: "Linus",  available: true },
+  { file: "lena.png",   name: "Lena",   available: true },
 ];
