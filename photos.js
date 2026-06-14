@@ -59,6 +59,11 @@ window.PHOTOS = [
     available: true,
   },
   {
+    file: "IMG_3631.jpg",
+    caption: "Du an der Gitarre, Linus an der Mundharmonika – euer kleines Konzert.",
+    available: true,
+  },
+  {
     file: "IMG_1293.jpg",
     caption: "Deine neugeborene Enkelin Lena, das erste Mal auf deinem Arm.",
     available: true,
